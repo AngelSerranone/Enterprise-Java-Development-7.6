@@ -1,0 +1,72 @@
+.container {
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.todos{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding:20px;
+    font-size: 20px;
+}
+
+.button{
+    width:25%;
+    display:inline-block;
+    margin: 0 auto;
+    padding:10px;
+    margin: 15px;
+}
+
+.button-delete-text{
+    width:15%;
+    display:inline-block;
+    margin: 0 auto;
+    padding:10px;
+    font-size: 15px;
+}
+
+.button-delete-element {
+    background-color: lightcoral;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px;
+}
+
+.button-pospone-element {
+    background-color: lightgoldenrodyellow;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px;
+}
+
+.button-completed-element {
+    background-color: lightgreen;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px;
+}
+
+.post-buttons{
+    display:flex;
+    align-items:center;
+}
+
+.row-even {
+    background-color:lavender;
+}
+
+.row-odd {
+    background-color:lightcyan;
+}
+
+.row-completed {
+    background-color: lightgreen;
+}
